@@ -3,6 +3,31 @@
 	"globIgnorePaths": ["**/.gitkeep"],
 	"tree": {
 		"$className": "DataModel",
+		"Workspace": {
+			"TestBall": {
+				"$className": "Part",
+				"$properties": {
+					"Shape": "Ball",
+					"Size": [8, 8, 8],
+					"CFrame": {
+						"CFrame": {
+							"position": [0, 12, 0],
+							"orientation": [
+								[1, 0, 0],
+								[0, 1, 0],
+								[0, 0, 1]
+							]
+						}
+					},
+					"Color": [1, 0, 0],
+					"Material": "SmoothPlastic",
+					"Reflectance": 0.4,
+					"Anchored": true,
+					"TopSurface": "Smooth",
+					"BottomSurface": "Smooth"
+				}
+			}
+		},
 		"ReplicatedStorage": {
 			"Shared": {
 				"$path": "src/shared"
