@@ -1,0 +1,19 @@
+# Built places/models
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+!assets/**/*.rbxm
+!assets/**/*.rbxmx
+
+# Studio lock/backup files
+*.lock
+*.rbxl.lock
+*.rbxlx.lock
+
+# Generated sourcemap for luau-lsp
+sourcemap.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
